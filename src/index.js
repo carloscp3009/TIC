@@ -25,18 +25,9 @@ app.set('view engine', '.hbs');
 
 
 
-// Global variables
-// app.use((req, res, next) => {
-//   app.locals.message = req.flash('message');
-//   app.locals.success = req.flash('success');
-//   app.locals.user = req.user;
-//   next();
-// });
-
 // Routes
-// app.use(require('./routes/index'));
-// app.use(require('./routes/ambulance'));
-// app.use('/user', require('./routes/user'));
+app.use(require('./routes/index'));
+
 
 // Public
 app.use(express.static(path.join(__dirname, 'public')));
