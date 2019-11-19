@@ -32,8 +32,8 @@ body {
 .bgcan{
   margin-top: 1vh;
   background-color: white;
-  height: 65vw;
-  width: 65vw;
+  height: 50vw;
+  width: 50vw;
   border-radius: 40vw;
   margin-left: auto;
   margin-right: auto;
@@ -57,8 +57,9 @@ body {
   height: 12vw;
 }
 .img-u{
-  padding-top: 10vh;
-  width: 40vw;
+  border-radius: 50vw;
+  padding-top: 4vh;
+  width: 39vw;
   height: 50vw;
 }
 
