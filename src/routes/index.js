@@ -7,4 +7,7 @@ router.get('/', (req, res) => {
 router.get('/selection', (req,res)=> {
   res.render('selection')
 });
+router.get('/plastic', (req,res)=> {
+  res.render('plastic')
+});
 module.exports = router;
