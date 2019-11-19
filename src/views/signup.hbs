@@ -1,0 +1,33 @@
+<section class="container mx-auto text-center">
+    <div class="card ">
+        <div class="card-header mt-5">
+            <h1 class="text-primary"> Registrate </h1>
+            <p class="lead"><i class="fas fa-recycle"></i> </p>
+        </div>
+        <div class="card-body">
+            <form action="/signup" method="POST" class="form-group">
+                <div class="form-group">
+                    <input type="text" name="hname" class="form-control" placeholder="Nombre" required />
+                    
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" class="form-control" placeholder="Contaseña" minlength="6" />
+                </div>
+                <div class="form-group">
+                    <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
+                    <small class="form-text text-left">
+                        Este será tu usuario 
+                    </small>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="city" class="form-control" placeholder="City" />
+                </div>
+                
+                <input type="submit" value="Registrarse" class="btn btn-primary" />
+            </form>
+            <p class="my-1">
+                Ya tienes una cuenta? <a href="/signin">Ingresa</a>
+            </p>
+        </div>
+    </div>
+</section>
